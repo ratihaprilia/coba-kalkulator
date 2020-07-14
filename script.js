@@ -76,7 +76,7 @@ const clearAll =() => {
     currentNumber = '0'
 }
 
-const clearBtn = document.querySelector('.all-clean')
+const clearBtn = document.querySelector('.all-clear')
 
 clearBtn.addEventListener('click', () =>{
     clearAll()
